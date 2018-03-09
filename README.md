@@ -8,8 +8,8 @@
 
 ### 安装使用
 
-1. 下载主题压缩包，上传至ghost博客的content/themes/skywalker中，解压，重启ghost系统，然后在后台设置启用主题即可。
-2. 也可以在ghost博客的content/themes/skywalker目录下，执行`git clone git@github.com:ChrisCindy/skywalker.git`,然后重启ghost系统，然后在后台设置启用主题即可。
+1. 下载主题压缩包，上传至 Ghost 博客的 content/themes/skywalker 中，解压，重启 Ghost 系统，然后在后台设置启用主题即可
+2. 也可以在 Ghost 博客的 content/themes/skywalker 目录下，执行 `git clone git@github.com:ChrisCindy/skywalker.git`，然后重启 Ghost 系统，然后在后台设置启用主题即可
 3. 以下几处需要修改，以保证主题正常使用：
   - `page-archives-post.hbs` 中，请求博客数据时应将接口 url 更改为个人博客地址
   - `aside.hbs` 中，社交链接需要更新
@@ -21,7 +21,7 @@
 * 适配移动端和 PC 端
 * 新增 Ghost 博客文章归档页面
 * 使用搜狐畅言作为评论插件，可自行替换
-* 主题采用flexbox布局
+* 主题采用 flexbox 布局
 * markdown 样式与 github 相同，代码高亮使用 highlight.js
 
 
