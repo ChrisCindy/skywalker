@@ -1658,7 +1658,7 @@ main {
 header.nav-wrapper {
     display: inherit;
     justify-content: space-between;
-    background: url(https://oc8prtequ.qnssl.com/images/postbg.jpg) 50% 50%;
+    background: url(http://ww2.sinaimg.cn/large/006tNc79ly1fem7vkuzbgj31hc0bo40l.jpg) 50% 50%;
     background-size: cover;
     width: 100%;
     height: 100%
@@ -2461,9 +2461,9 @@ nav a {
     .markdown-body {
         max-width: 980px!important
     }
-    #menu.open {
+    /* #menu.open {
         width: 340px
-    }
+    } */
     .pages .content-in {
         width: 100%;
         max-width: calc(100% - 340px);
