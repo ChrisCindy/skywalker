@@ -1,32 +1,28 @@
 # skywalker
 
-一款material design风格的响应式简约ghost博客主题
+一款 material design 风格的响应式简约 Ghost 博客主题
 
-[demo](https://www.ldsun.com)
+基于 [flute/skywalker](https://github.com/flute/skywalker) 改进，在此表示感谢
+
+[demo](http://www.fecoding.cn)
 
 ### 安装使用
 
 1. 下载主题压缩包，上传至ghost博客的content/themes/skywalker中，解压，重启ghost系统，然后在后台设置启用主题即可。
-2. 也可以在ghost博客的content/themes/skywalker目录下，执行`git clone git@github.com:flute/skywalker.git`,然后重启ghost系统，然后在后台设置启用主题即可。
+2. 也可以在ghost博客的content/themes/skywalker目录下，执行`git clone git@github.com:ChrisCindy/skywalker.git`,然后重启ghost系统，然后在后台设置启用主题即可。
+3. 以下几处需要修改，以保证主题正常使用：
+  - `page-archives-post.hbs` 中，请求博客数据时应将接口 url 更改为个人博客地址
+  - `aside.hbs` 中，社交链接需要更新
+  - `comments.hbs` 中，搜狐畅言评论系统的 appid 和 conf 参数需要修改，具体参见搜狐畅言官网文档
+  - `footer.hbs` 中，底部网站信息需要更新
 
 ### 主题说明
 
-* 适配移动端和pc端
-* 随机获取bing图库图片作为背景图
-* 新增ghost博客文章归档页面
-* 使用disqus作为评论插件，可自行替换
+* 适配移动端和 PC 端
+* 新增 Ghost 博客文章归档页面
+* 使用搜狐畅言作为评论插件，可自行替换
 * 主题采用flexbox布局
-* markdown样式与github相同，代码高亮使用highlight.js
+* markdown 样式与 github 相同，代码高亮使用 highlight.js
 
-### Screenshoot
-* mobile：
 
-<img src="./screenshoot/m1.png" width = "49%" />  <img src="./screenshoot/m2.png" width = "49%" />
-<img src="./screenshoot/m3.png" width = "49%" />  <img src="./screenshoot/m4.png" width = "49%" />
-
-* pc
-
-![mobile](./screenshoot/pc1.png)![mobile](./screenshoot/pc2.png)
-![mobile](./screenshoot/pc3.png)![mobile](./screenshoot/pc4.png)
-
-持续更新中，欢迎使用+star/fork。。。
+持续更新中，欢迎使用 + star/fork
