@@ -1614,7 +1614,7 @@ code {
     border-radius: 5px;
     margin: 0 .5em;
     font-family: SourceCodePro!important;
-    font-size: 13px!important;
+    font-size: 16px!important;
     line-height: 18px!important
 }
 
@@ -2041,7 +2041,7 @@ ul.link li {
 }
 
 .post-html {
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 400;
     vertical-align: middle;
     line-height: 1.8;
@@ -2065,87 +2065,85 @@ ul.link li {
 .hljs {
     display: block;
     overflow-x: auto;
-    padding: 5px;
-    color: #abb2bf;
-    background: #282c34;
+    background: #f7f7f7;
+    color: #4d4d4c;
+    padding: 0.5em;
     border-radius: 0;
-    line-height: 14px
+    line-height: 14px;
 }
 
+/* Tomorrow Comment */
 .hljs-comment,
 .hljs-quote {
-    color: #5c6370;
-    font-style: italic
+    color: #8e908c;
 }
 
-.hljs-doctag,
-.hljs-formula,
-.hljs-keyword {
-    color: #c678dd
-}
-
-.hljs-deletion,
-.hljs-name,
-.hljs-section,
-.hljs-selector-tag,
-.hljs-subst {
-    color: #e06c75
-}
-
-.hljs-literal {
-    color: #56b6c2
-}
-
-.hljs-addition,
-.hljs-attribute,
-.hljs-meta-string,
-.hljs-regexp,
-.hljs-string {
-    color: #98c379
-}
-
-.hljs-built_in,
-.hljs-class .hljs-title {
-    color: #e6c07b
-}
-
-.hljs-attr,
-.hljs-number,
-.hljs-selector-attr,
-.hljs-selector-class,
-.hljs-selector-pseudo,
+/* Tomorrow Red */
+.hljs-variable,
 .hljs-template-variable,
-.hljs-type,
-.hljs-variable {
-    color: #d19a66
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+    color: #c82829;
 }
 
-.hljs-bullet,
-.hljs-link,
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
 .hljs-meta,
-.hljs-selector-id,
+.hljs-link {
+    color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+    color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
 .hljs-symbol,
-.hljs-title {
-    color: #61aeee
+.hljs-bullet,
+.hljs-addition {
+    color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+    color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+    color: #8959a8;
 }
 
 .hljs-emphasis {
-    font-style: italic
+    font-style: italic;
 }
 
-.hljs-link {
-    text-decoration: underline
+.hljs-strong {
+    font-weight: bold;
 }
 
 code.has-numbering {
-    margin-left: 20px;
+    margin-left: 30px;
     padding-left: 10px;
-    border-left: 1px solid #555
+    border-left: 1px solid #0684bd
 }
 
 .pre-numbering {
     left: 0;
-    width: 20px;
+    width: 30px;
     font-family: Menlo, monospace;
     font-size: .8em;
     color: #AAA;
@@ -2156,7 +2154,7 @@ code.has-numbering {
     text-align: right;
     height: 100%;
     overflow: hidden;
-    background: #282c34;
+    background: #f7f7f7;
     border: 0
 }
 
@@ -2322,7 +2320,7 @@ nav a {
 @media screen and (max-width:1024px) {
     .index #menu,
     .pages #menu {
-        width: 200px;
+        width: 240px;
         left: 0!important
     }
     .index #menu.open {
