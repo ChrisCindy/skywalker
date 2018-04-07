@@ -1044,8 +1044,8 @@ nav a {
     -webkit-text-size-adjust: 100%;
     color: #24292e;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 1.6;
     word-wrap: break-word
 }
 
@@ -1194,7 +1194,8 @@ nav a {
 .markdown-body a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    color: #0366d6;
+    color: #0684bd;
+    border-bottom: 1px dashed #0684bd;    
     text-decoration: none
 }
 
@@ -1365,7 +1366,7 @@ main {
 .markdown-body blockquote {
     padding: 0 1em;
     color: #6a737d;
-    border-left: .25em solid #dfe2e5
+    border-left: .25em solid #0684bd
 }
 
 .markdown-body h1,
@@ -1398,7 +1399,7 @@ blockquote {
     margin-bottom: 16px;
     font-weight: 600;
     line-height: 1.25;
-    color: rgba(0, 0, 0, .85)
+    color: #0684bd
 }
 
 .markdown-body h1 .octicon-link,
@@ -1446,9 +1447,21 @@ blockquote {
     color: #6a737d
 }
 
+.markdown-body ol {
+  list-style-type: decimal;
+}
+
 .markdown-body ol,
 .markdown-body ul {
-    padding-left: 2em
+    padding-left: 2em;
+}
+
+.markdown-body .kg-card-markdown > ol, .markdown-body .kg-card-markdown > ul {
+  -moz-border-radius: 21px;
+  -webkit-border-radius: 21px;
+  border-radius: 21px;
+  border: 1px solid #0684bd;
+  text-shadow: 0 1px #fff;
 }
 
 .markdown-body ol ol,
@@ -1601,11 +1614,11 @@ html {
 }
 
 a {
-    color: #4fc3f7
+    color: #0684bd;
 }
 
 a:hover {
-    color: #039be5
+    color: #0684bd
 }
 
 code {
@@ -1613,9 +1626,9 @@ code {
     padding: 2px 5px;
     border-radius: 5px;
     margin: 0 .5em;
-    font-family: SourceCodePro!important;
-    font-size: 16px!important;
-    line-height: 18px!important
+    /* font-family: SourceCodePro!important; */
+    font-size: 18px!important;
+    line-height: 20px!important
 }
 
 .page {
@@ -2070,6 +2083,7 @@ ul.link li {
     padding: 0.5em;
     border-radius: 0;
     line-height: 14px;
+    border-left: 5px solid #0684bd;
 }
 
 /* Tomorrow Comment */
