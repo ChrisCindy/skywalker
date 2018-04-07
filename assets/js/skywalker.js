@@ -127,15 +127,15 @@ $(document).ready(function() {
 			$(this).addClass('hljs')
 		}
 		// hljs line number
-		var lines = $(this).text().split('\n').length - 1;
-		var $numbering = $('<ul/>').addClass('pre-numbering');
-		$(this)
-		    .addClass('has-numbering')
-		    .parent()
-		    .append($numbering);
-		for(i=1;i<=lines;i++){
-		    $numbering.append($('<li/>').text(i));
-		}
+		// var lines = $(this).text().split('\n').length - 1;
+		// var $numbering = $('<ul/>').addClass('pre-numbering');
+		// $(this)
+		//     .addClass('has-numbering')
+		//     .parent()
+		//     .append($numbering);
+		// for(i=1;i<=lines;i++){
+		//     $numbering.append($('<li/>').text(i));
+		// }
 	});
 });
 hljs.initHighlightingOnLoad();
