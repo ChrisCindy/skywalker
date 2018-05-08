@@ -24,5 +24,11 @@
 * 主题采用 flexbox 布局
 * markdown 样式与 github 相同，代码高亮使用 highlight.js
 
+### Plan to do
 
-持续更新中，欢迎使用 + star/fork
+- [] 代码压缩处理
+- [] 增加标签云页面
+- [] 首页加载文章动画
+- [] 延迟加载
+
+持续更新中，欢迎使用。
