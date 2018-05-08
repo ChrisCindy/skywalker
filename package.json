@@ -1,7 +1,10 @@
 {
-    "name": "SkyWalker",
+    "name": "skywalker",
     "version": "1.0.0",
     "description": "a simple theme",
-    "author": "ludis",
-    "homepage": "http://www.ldsun.com/"
+    "author": {
+      "name": "chriscindy",
+      "email": "yxy0919@foxmail.com"
+    },
+    "homepage": "http://www.fecoding.cn/"
 }
