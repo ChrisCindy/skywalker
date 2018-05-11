@@ -1,0 +1,30 @@
+<div class="col s6" style="padding-{{#if type}}left{{else}}right{{/if}}:0;">
+    <div class="card">
+        <div class="card-image card-{{#if type}}pre{{else}}next{{/if}}">
+            {{#if feature_image}}
+            <img src="{{feature_image}}">
+            {{else}}
+            <img src="/assets/img/sample.jpg">
+            {{/if}}
+            </img>
+        </div>
+        <div class="card-title">
+            {{#if primary_tag}}
+            <span class="card-tags">{{primary_tag.name}}</span>
+            {{/if}}
+            <p>{{title}}</p>
+        </div>
+        <div class="card-content">
+            <p>{{excerpt}}</p>
+        </div>
+        <div class="card-action">
+            <a href="{{url}}">
+            {{#if type}}
+            前一篇
+            {{else}}
+            后一篇
+            {{/if}}
+            </a>
+        </div>
+    </div>
+</div>

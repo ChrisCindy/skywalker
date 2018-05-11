@@ -31,7 +31,7 @@
 		</div>
 		<div class="row more-article content-in">
 			{{#prev_post}}
-			<div class="col s6" style="padding-left:0;">
+			{{!-- <div class="col s6" style="padding-left:0;">
 		        <div class="card">
 		            <div class="card-image card-pre">
 		                <img src="/assets/img/sample.jpg">
@@ -41,11 +41,13 @@
 		            <div class="card-content"><p>{{excerpt}}</p></div>
 		            <div class="card-action"><a href="{{url}}">前一篇</a></div>
 		        </div>
-		    </div>
+		    </div> --}}
+        {{> post-card type='pre'}}
 			{{/prev_post}}
 
 			{{#next_post}}
-			<div class="col s6" style="padding-right:0;">
+        {{> post-card}}      
+			{{!-- <div class="col s6" style="padding-right:0;">
 		        <div class="card">
 		            <div class="card-image card-next">
 		                <img src="/assets/img/sample.jpg">
@@ -55,7 +57,7 @@
 		            <div class="card-content"><p>{{excerpt}}</p></div>
 		            <div class="card-action" style="text-align: right;"><a href="{{url}}">后一篇</a></div>
 		        </div>
-		    </div>	
+		    </div>	 --}}
 			{{/next_post}}
 
 			{{> comments}}
