@@ -754,7 +754,8 @@ nav {
 
 .card .card-title {
     font-weight: 500;
-    padding: 10px
+    padding: 10px;
+    height: 93px
 }
 
 .card .card-title .card-tags {
@@ -769,7 +770,13 @@ nav {
 }
 .card .card-title p {
     margin: 0;
-    color: inherit
+    color: inherit;
+    width: 100%;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
 
 .card .card-content {
