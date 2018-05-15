@@ -1,0 +1,44 @@
+{{!< default}} 
+<div class="row page pages">
+  <div class="slidenav">
+    {{> aside}}
+    <div class="closeslide"></div>
+  </div>
+  <main>
+    <nav>
+      <header class="nav-wrapper blue-grey">
+        <div>
+          <a id="show-slide-nav">
+            <i class="fa fa-bars fa-lg"></i>
+          </a>
+          <p>
+            <span class="header-title">{{@blog.title}}</span>
+          </p>
+          <span></span>
+        </div>
+      </header>
+    </nav>
+    <div class="contents content-in about">
+      {{#post}}
+      <article>
+        <div style="text-align:center">
+          <h4 class="tags-title">Tags</h4>
+        </div>
+        <article class="tags">
+          {{! Tag Cloud }}
+          {{#get "tags" limit="all" include="count.posts" order="count.posts desc" }}
+              {{#foreach tags}}
+                  <a href="/tag/{{slug}}#open" class="tag-item">{{name}}({{count.posts}})</a>
+              {{/foreach}}
+          {{/get}}
+
+        </article>
+      </article>
+      <div class="no-border-footer" style="margin-top:50px;">
+        {{> footer}}
+      </div>
+    </div>
+
+  </main>
+  </div>
+  {{/post}}

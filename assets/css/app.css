@@ -2215,7 +2215,7 @@ code.has-numbering {
     line-height: 20px
 }
 
-.noborderfooter .site-footer {
+.no-border-footer .site-footer {
     border: 0
 }
 
@@ -2301,11 +2301,21 @@ code.has-numbering {
     font-family: monospace
 }
 
-.archives-title {
+.archives-title, .tags-title {
     display: inline-block;
     padding: 5px 20px;
     background: #eee;
     border-bottom: 3px solid #ccc
+}
+
+.tags {
+  display: block!important
+}
+
+.tags .tag-item {
+  margin: 10px;
+  border-bottom: 1px solid #0684bd;
+  word-wrap: break-word;
 }
 
 .about {
