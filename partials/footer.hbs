@@ -1,11 +1,30 @@
-<footer class="site-footer clearfix ">
+<footer class="site-footer clearfix">
   <section class="copyright">
   	<a href="//www.fecoding.cn/" target="_blank">逆葵</a> © 2016-2018
   </section>
-  <section class="poweredby ">
+  <section class="poweredby">
   	Powered by <a href="https://ghost.org/" target="_blank">Ghost</a> | Theme <a href="https://github.com/ChrisCindy/skywalker">SkyWalker </a>
   </section>
   <section>
-	<a href="//www.miitbeian.gov.cn/" target="_blank">京ICP备XXXXXXXX号</a>
+	<a href="//www.miitbeian.gov.cn/" target="_blank">京ICP备17007359号</a>
+  </section>
+  <section>
+    {{#if page}}
+    <span id="busuanzi_container_page_pv"  style="display:none">
+      <i class="fa fa-file"></i>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    {{/if}}
+    {{#if site}}
+    <span id="busuanzi_container_site_uv" style="display:none">
+      <i class="fa fa-user"></i>
+      <span id="busuanzi_value_site_uv"></span>
+    </span>
+    |
+    <span id="busuanzi_container_site_pv" style="display:none">
+      <i class="fa fa-eye"></i>
+      <span id="busuanzi_value_site_pv"></span>
+    </span>
+    {{/if}}
   </section>
 </footer>
