@@ -23,7 +23,10 @@
 			
 			<article class="posts-content markdown-body">
 				<p class="posts-title">{{title}}</p>
-				<span class="post-time"><i class="fa fa-calendar"></i> {{date format="YYYY-MM-DD HH:mm:ss"}}</span>
+				<span class="post-time"><i class="fa fa-calendar"></i> {{date format="YYYY-MM-DD HH:mm:ss"}} | </span>
+        <span class="post-reading-time">
+          <i class="fa fa-clock-o"></i> {{reading_time}}
+        </span>
 				<div class="post-html">
 					{{content}}
 				</div>
