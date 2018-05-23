@@ -4,7 +4,7 @@
 
 基于 [flute/skywalker](https://github.com/flute/skywalker) 改进，在此表示感谢
 
-[demo](http://www.fecoding.cn)
+[demo 戳我](http://www.fecoding.cn)
 
 ### 安装使用
 
